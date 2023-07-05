@@ -1,0 +1,72 @@
+*{
+    margin:0px;
+    padding:0px;   
+}
+.ninom{
+ color:white;
+ font-size: 35px;   
+}
+.main{
+    position: relative;
+}
+.over{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: rgb(0, 0, 0, 0.8);
+    overflow: hidden;
+    width: 100%;
+    height:0;
+    transition: 0.5s ease;
+}
+.main:hover .over{
+    height:100%;
+} 
+.over h5{
+    margin-top: 200px;
+}
+@media screen and (min-width:320px) {
+    .over h5{
+        margin-top: 60px;
+    }
+    .over button{
+        width:50%;
+    }
+    .main{
+        margin-bottom: 5px;
+    }
+}
+@media screen and (min-width:425px){
+    .over h5{
+        margin-top: 90px;
+    }
+    .over button{
+        width:50%;
+    }
+    .main{
+        margin-bottom: 5px;
+    }
+}
+@media screen and (min-width:768px){
+    .over h5{
+        margin-top: 90px;
+    }
+    .over button{
+        width:50%;
+    }
+    .main{
+        margin-bottom: 5px;
+    }
+}
+@media screen and (min-width:1024px){
+    .over h5{
+        margin-top: 150px;
+    }
+    .over button{
+        width:30%;
+    }
+    .main{
+        margin-bottom: 5px;
+    }
+}
